@@ -16,17 +16,30 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipPerPerson: UILabel!
     @IBOutlet weak var billAmount: UITextField!
     
+   
+
     
     //MARK: Methods
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        // Obtain value from guess field
+        
+       let billAmount.text = billAmount
+        
+        
+        let billAmountAString = billAmount!
+        let tipPercentAString = tipPercentage!
+        let amountOfPeopleAString = numberOfPeople!
         
     }
     
     
     @IBAction func calculateTip(_ sender: Any) {
+      
         
+        
+      
         
     }
     
